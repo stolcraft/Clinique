@@ -9,7 +9,7 @@
 
 <%
 
-Collection<Patient> listePatient = new ArrayArrayList<Patient>();
+Collection<Patient> listePatient = new ArrayList<Patient>();
 PatientService patientservice = new PatientService();
 listePatient = patientservice.listerPatient();
 
