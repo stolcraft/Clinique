@@ -1,4 +1,4 @@
-<%@page import="eu.ensup.clinique.service.MedecinService"%>
+<%@page import="eu.ensup.clinique.service.PatientService"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
  <%@ page import="java.util.Date" %>
@@ -6,7 +6,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@ page import="eu.ensup.clinique.service.*"%>
 <%@ page import="eu.ensup.clinique.domaine.*"%>
-<%@ page import="eu.ensup.clinique.domaine.Medecin"%>
+<%@ page import="eu.ensup.clinique.domaine.Patient"%>
 
 <%
 

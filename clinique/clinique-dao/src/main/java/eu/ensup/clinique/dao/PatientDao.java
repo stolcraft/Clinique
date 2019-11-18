@@ -21,7 +21,7 @@ public class PatientDao {
 	public PatientDao() {
 
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			cn = DriverManager.getConnection(url, login, passwd);
 			st = cn.createStatement();
 		} catch (ClassNotFoundException e) {
