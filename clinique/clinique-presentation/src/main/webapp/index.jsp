@@ -5,8 +5,7 @@
  <%@page import="java.util.Collection"%>
 <%@page import="java.util.ArrayList"%>
 
-<%@ page import="eu.ensup.clinique.service.*"%>
-<%@ page import="eu.ensup.clinique.domaine.*"%>
+<%@ page import="eu.ensup.clinique.service.PatientService"%>
 <%@ page import="eu.ensup.clinique.domaine.Patient"%>
 
 
