@@ -9,6 +9,7 @@ public class Patient extends Personne{
 		super(id, nom, prenom);
 		this.symptome = symptome;
 	}
+
 	public Medecin getMedecin() {
 		return medecin;
 	}
