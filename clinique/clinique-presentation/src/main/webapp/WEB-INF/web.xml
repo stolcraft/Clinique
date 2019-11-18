@@ -5,14 +5,6 @@
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <servlet-name>Connection</servlet-name>
-    <servlet-class>eu.ensup.formulaire.presentation.Connection</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Connection</servlet-name>
-    <url-pattern>/test</url-pattern>
-  </servlet-mapping>
   	<error-page>
 		<error-code>404</error-code>
 		<location>/404.jsp</location>
