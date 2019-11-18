@@ -9,7 +9,7 @@
 
 <%
 
-Collection<Patient> listePatient = new ArrayArrayList<Patient>
+Collection<Patient> listePatient = new ArrayArrayList<Patient>();
 MedecinService medecinservice = new MedecinService();
 listePatient = medecinservice.listerPatient();
 MedecinService medserv = new MedecinService();
@@ -60,8 +60,7 @@ MedecinService medserv = new MedecinService();
     <% } %>
   </table>
   
-=======
 	Bonjour nous sommes <%= new Date() %> et on est en cours
->>>>>>> refs/remotes/origin/master
+
 </body>
 </html>
