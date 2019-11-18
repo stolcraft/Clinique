@@ -10,9 +10,8 @@
 <%
 
 Collection<Patient> listePatient = new ArrayArrayList<Patient>();
-MedecinService medecinservice = new MedecinService();
-listePatient = medecinservice.listerPatient();
-MedecinService medserv = new MedecinService();
+PatientService patientservice = new PatientService();
+listePatient = patientservice.listerPatient();
 
 %>
 <!DOCTYPE html>
