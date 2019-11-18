@@ -1,10 +1,11 @@
+<%@page import="eu.ensup.clinique.service.MedecinService"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
  <%@ page import="java.util.Date" %>
-<%@ page import="eu.ensup.formulaire.domaine.Medecin"%>
+<%@ page import="eu.ensup.clinique.domaine.Medecin"%>
 <%
 
-Medecin med = new Medecin();
+MedecinService medserv = new MedecinService();
 %>
 <!DOCTYPE html>
 <html>
@@ -13,6 +14,6 @@ Medecin med = new Medecin();
 <title>Démo JSP</title>
 </head>
 <body>
-	Bonjour nous sommes <%= new Date() %> et on est en cour
+	Bonjour nous sommes <%= new Date() %> et on est en cours
 </body>
 </html>
