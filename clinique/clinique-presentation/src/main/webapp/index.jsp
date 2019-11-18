@@ -15,16 +15,6 @@
 <body>
 	<h1>Bienvenue sur la clinique en ligne</h1>
 
-	<!-- On intègre un formulaire à la page HTML -->
-	<form id="test" action="Connection" method="post">
-		<div class="login">
-			<p for="nom">Login :</p> <input type="text" id="Login"
-				name="loginuser" required>
-
-			<p for="prenom">MDP :</p> <input type="password"  id="Password" name="mdpuser" required/>
-
-		<input type="submit" value="Envoyer">
-		</div>
-	</form>
+	
 </body>
 </html>
