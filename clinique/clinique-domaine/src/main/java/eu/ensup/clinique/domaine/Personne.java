@@ -4,11 +4,19 @@ public class Personne {
 	private int id;
 	private String nom;
 	private String prenom;
+	private String email;
+	private String adresse;
+	private String sexe;
 
-	public Personne(int id, String nom, String prenom) {
+
+
+	public Personne(int id, String nom, String prenom, String email, String adresse, String sexe) {
 		this.id = id;
 		this.nom = nom;
 		this.prenom = prenom;
+		this.email = email;
+		this.adresse = adresse;
+		this.sexe = sexe;
 	}
 
 	public int getId() {
@@ -33,6 +41,30 @@ public class Personne {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+
+	public String getSexe() {
+		return sexe;
+	}
+
+	public void setSexe(String sexe) {
+		this.sexe = sexe;
 	}
 
 	@Override
