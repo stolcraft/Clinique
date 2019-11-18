@@ -21,15 +21,15 @@ public class PatientDao {
 	public PatientDao() {
 
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			cn = DriverManager.getConnection(url, login, passwd);
 			st = cn.createStatement();
 		} catch (ClassNotFoundException e) {
 			System.out.println("erreur connection, classnotfound");
-			// e.printStackTrace();
+			e.printStackTrace();
 		} catch (SQLException e) {
 			System.out.println("erreur connection, sqlexception");
-			// e.printStackTrace();
+			e.printStackTrace();
 		}
 
 	}
