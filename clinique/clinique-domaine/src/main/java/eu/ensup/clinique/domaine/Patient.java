@@ -5,12 +5,9 @@ public class Patient extends Personne {
 	private Medecin medecin;
 	private String symptome;
 
-
-	public Patient(int id, String nom, String prenom, String email, String adresse, String sexe, Medecin medecin,
-			String symptome) {
+	public Patient(int id, String nom, String prenom, String email, String adresse, String sexe) {
 		super(id, nom, prenom, email, adresse, sexe);
-		this.medecin = medecin;
-		this.symptome = symptome;
+
 	}
 
 	public Medecin getMedecin() {

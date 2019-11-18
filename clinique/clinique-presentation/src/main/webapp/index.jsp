@@ -1,12 +1,22 @@
+<%@page import="eu.ensup.clinique.service.MedecinService"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
  <%@ page import="java.util.Date" %>
+<<<<<<< HEAD
 <%@ page import="eu.ensup.clinique.service.*"%>
 <%@ page import="eu.ensup.clinique.domaine.*"%>
+=======
+<%@ page import="eu.ensup.clinique.domaine.Medecin"%>
+>>>>>>> refs/remotes/origin/master
 <%
+<<<<<<< HEAD
 Collection<Patient> listePatient = new ArrayArrayList<Patient>
 MedecinService medecinservice = new MedecinService();
 listePatient = medecinservice.listerPatient();
+=======
+
+MedecinService medserv = new MedecinService();
+>>>>>>> refs/remotes/origin/master
 %>
 <!DOCTYPE html>
 <html>
@@ -20,6 +30,7 @@ listePatient = medecinservice.listerPatient();
 <title>Clinique KevRil</title>
 </head>
 <body>
+<<<<<<< HEAD
 <h1>Bienvenue dans la clinique en ligne</h1>
 	Bonjour nous sommes <%= new Date() %> et on est en cour
 	
@@ -52,5 +63,8 @@ listePatient = medecinservice.listerPatient();
     <% } %>
   </table>
   
+=======
+	Bonjour nous sommes <%= new Date() %> et on est en cours
+>>>>>>> refs/remotes/origin/master
 </body>
 </html>
