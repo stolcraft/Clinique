@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Site de la clinique !</h2>
 </body>
 </html>
