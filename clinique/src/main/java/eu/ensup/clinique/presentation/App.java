@@ -1,4 +1,4 @@
-package eu.ensup.clinique;
+package eu.ensup.clinique.presentation;
 
 /**
  * Hello world!
