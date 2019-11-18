@@ -27,7 +27,7 @@ listePatient = patientservice.listerPatient();
 <title>Clinique KevRil</title>
 </head>
 <body>
-<<<<<<< HEAD
+
 <h1>Bienvenue dans la clinique en ligne</h1>
 	Bonjour nous sommes <%= new Date() %> et on est en cour
 	
@@ -51,12 +51,12 @@ listePatient = patientservice.listerPatient();
 %>
     <tr>
       <th scope="row"><% out.println(i); %></th>
-      <td><% out.println(listePatient.get(i).getNom()); %></td>
-      <td><% out.println(listePatient.get(i).getPrenom()); %></td>
-      <td><% out.println(listePatient.get(i).getMail()); %></td>
-      <td><% out.println(listePatient.get(i).getAdresse()); %></td>
-      <td><% out.println(listePatient.get(i).getSexe()); %></td>
-    </tr>
+<%--       <td><% out.println(listePatient.get(i).getNom()); %></td> --%>
+<%--       <td><% out.println(listePatient.get(i).getPrenom()); %></td> --%>
+<%--       <td><% out.println(listePatient.get(i).getMail()); %></td> --%>
+<%--       <td><% out.println(listePatient.get(i).getAdresse()); %></td> --%>
+<%--       <td><% out.println(listePatient.get(i).getSexe()); %></td> --%>
+<!--     </tr> -->
     <% } %>
   </table>
   
