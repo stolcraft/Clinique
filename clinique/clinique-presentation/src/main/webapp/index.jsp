@@ -10,10 +10,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <meta charset="ISO-8859-1">
-<title>AUTHENTIFICATION</title>
+<title>Site de la clinique KevRil</title>
 </head>
 <body>
-	<h1>AUTHENTIFICATION</h1>
+	<h1>Bienvenue sur la clinique en ligne</h1>
 
 	<!-- On intègre un formulaire à la page HTML -->
 	<form id="test" action="Connection" method="post">
